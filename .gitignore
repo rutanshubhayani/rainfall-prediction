@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files (optional, if you don’t want to track)
+*.pkl
