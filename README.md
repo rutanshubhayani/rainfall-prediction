@@ -24,3 +24,14 @@ This project predicts whether it will rain today based on historical weather con
 ```bash
 pip install pandas numpy scikit-learn xgboost imbalanced-learn joblib
 python rainfall_gfg.py
+
+### Recommended setup (virtual environment)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate        # Linux/Mac
+# venv\Scripts\activate         # Windows PowerShell
+
+pip install --upgrade pip
+pip install -r requirements.txt
+python rainfall_gfg.py

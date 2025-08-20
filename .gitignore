@@ -1,12 +1,18 @@
-# Virtual environment
-venv/
-*.egg-info/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Model files (optional, if you don’t want to track)
+# Virtual env
+venv/
+.env/
+.venv/
+
+# Artifacts
 *.pkl
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
